@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+/* Importing Bootstrap SCSS file. */
+
+@import '~bootstrap/scss/bootstrap';
+.button {
+    padding: 10px 44px;
+    border: none;
+    outline: none;
+    margin-top: 100px;
+}
+
+.color-green {
+    color: #77c055;
+}
+
+.bg-green {
+    background-color: #77c055;
+}
+
+.gradient-bg {
+    background: rgb(110, 193, 75);
+    background: linear-gradient(153deg, rgba(110, 193, 75, 1) 35%, rgba(178, 167, 49, 1) 100%);
+}

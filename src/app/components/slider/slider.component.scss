@@ -1,0 +1,35 @@
+ ::ng-deep ngb-carousel {
+    .carousel-item {
+        height: 100vh;
+        .picsum-img-wrapper,
+        img {
+            height: 100%;
+            width: 100%;
+        }
+    }
+    .carousel-indicators {
+        bottom: 50px;
+        li {
+            border-radius: 50% !important;
+            height: 13px;
+            width: 13px;
+            &.active {
+                background-color: #77c055;
+            }
+            &:hover {
+                background-color: #77c055;
+            }
+        }
+    }
+    .carousel-caption {
+        height: 100%;
+        left: 0;
+        top: 0;
+        background: #00000091;
+        width: 100%;
+        padding: 70px 20px;
+        .title {
+            font-size: 40px;
+        }
+    }
+}
